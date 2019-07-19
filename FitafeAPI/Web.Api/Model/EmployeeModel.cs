@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitafeAPI.Business.Persistence.Entities.UsersEntities
+namespace FitafeAPI.Web.Api.Model
 {
-    public class Employee
+    public class EmployeeModel
     {
-        public int ID { get; set; }
         public string FullName { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitafeAPI.Business.Persistence.Entities.UsersEntities
+namespace FitafeAPI.Web.Api.Resource
 {
-    public class Employee
+    public class EmployeeResource
     {
         public int ID { get; set; }
         public string FullName { get; set; }
@@ -17,5 +17,6 @@ namespace FitafeAPI.Business.Persistence.Entities.UsersEntities
         public string Adress { get; set; }
         public string City { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public long ElapsedMilliseconds { get; set; }
     }
 }

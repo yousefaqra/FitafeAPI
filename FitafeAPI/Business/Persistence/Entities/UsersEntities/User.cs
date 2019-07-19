@@ -18,5 +18,6 @@ namespace FitafeAPI.Business.Persistence.Entities.UsersEntities
         public string City { get; set; }
         public DateTime DateOfBirth { get; set; }
 
+
     }
 }
