@@ -46,6 +46,7 @@ namespace FitafeAPI.Business.Persistence.Repositories
             T entity)
         {
             Context.Set<T>().Add(entity);
+            CommitTransaction();
         }
 
         public virtual void Delete(
